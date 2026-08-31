@@ -96,8 +96,23 @@ body {
     border: 2px solid rgba(255, 255, 255, 0.3);
     /* filter: blur(1px); */
 }
+
 .swiper-slide.swiper-slide-active {
     border-color: #fff;
+}
+.swiper-slide.swiper-slide-active::after,
+.swiper-slide.swiper-slide-active::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545); */
+    background: rgba(255, 255, 255, 0.2);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    border-radius: 1.5rem;
 }
 
 .swiper-slide .icon {
