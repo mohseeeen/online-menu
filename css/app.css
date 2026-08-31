@@ -195,12 +195,12 @@ body {
 
 .list-group {
     --bs-list-group-color: #fff;
-    --bs-list-group-bg: transparent;
+    --bs-list-group-bg: #333;
     --bs-list-group-border-color: transparent;
     --bs-list-group-border-width: var(--bs-border-width);
     --bs-list-group-border-radius: var(--bs-border-radius);
     --bs-list-group-item-padding-x: 1rem;
-    --bs-list-group-item-padding-y: 0.5rem;
+    --bs-list-group-item-padding-y: 1rem;
     --bs-list-group-action-color: var(--bs-secondary-color);
     --bs-list-group-action-hover-color: var(--bs-emphasis-color);
     --bs-list-group-action-hover-bg: var(--bs-tertiary-bg);
